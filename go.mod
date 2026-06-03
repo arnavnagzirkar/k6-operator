@@ -1,15 +1,13 @@
 module github.com/grafana/k6-operator
 
-go 1.25.0
-
-toolchain go1.25.10
+go 1.25.11
 
 require (
 	github.com/go-logr/logr v1.4.3
 	github.com/go-test/deep v1.1.1
 	github.com/google/uuid v1.6.0
-	github.com/onsi/ginkgo/v2 v2.28.3
-	github.com/onsi/gomega v1.40.0
+	github.com/onsi/ginkgo/v2 v2.29.0
+	github.com/onsi/gomega v1.41.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.11.1
 	go.k6.io/k6 v1.7.1
